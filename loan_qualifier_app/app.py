@@ -23,6 +23,15 @@ from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
 
+def save_csv(csvpath, qualifying_loans):
+    csvpath = Path(csvpath)
+    
+    header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
+    with open(csvpath, "w", newline = "") as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(header)
+        for item in qualifying_loans:
+            csvwriter.writerow(item)
 
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
