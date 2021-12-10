@@ -4,6 +4,6 @@
 
 ## Technologies
 
-![Technologies required to use this project.](C2_Imports.png)
+![Technologies required to use this project.](../Challenge_2/C2_Imports.png "Technologies required to use this project.")
 
 ###### After importing the required technologies the program should function properly.
