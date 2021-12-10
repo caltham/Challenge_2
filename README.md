@@ -4,6 +4,6 @@
 
 ## Technologies
 
-![Technologies required to use this project.](/Users/Chance/Desktop/Challenge_2/C2_Imports.png)
+![Technologies required to use this project.](C2_Imports.png)
 
-######After importing the required technologies the program should function properly.
+###### After importing the required technologies the program should function properly.
