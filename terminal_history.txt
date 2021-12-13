@@ -1,0 +1,50 @@
+  618  cd ..
+  619  ls
+  620  cd README.md
+  621  git add READ.md
+  622  ls
+  623  git add README.md
+  624  git status
+  625  git commit -m "Update 1 to the 'README.md' file."
+  626  git push
+  627  git add README.md
+  628  git commit -m "Update 2 to the 'README.md' file."
+  629  git push
+  630  git add README.md
+  631  git status
+  632  git commit -m "Update 3 to the 'README.md' file."
+  633  git push
+  634  git add README.md
+  635  git commit -m "Update 4 to the 'README.md' file."
+  636  git commit -m "Update 4 to the 'README.md' file."
+  637  git add README.md
+  638  git status
+  639  git commit -m "Update 4 to the 'README.md' file."
+  640  git push
+  641  ls
+  642  git add README.md
+  643  git status
+  644  ls
+  645  cd loan_qualifies_app
+  646  cd loan_qualifier_app
+  647  git add output_sample_file_2.csv
+  648  ls
+  649  cd data
+  650  git add output_sample_file_2.csv
+  651  git status
+  652  git push
+  653  git pull
+  654  git status
+  655  git push
+  656  git status
+  657  git push
+  658  ls
+  659  git push
+  660  cd ..
+  661  cd ..
+  662  git push
+  663  ls
+  664  git remote show origin
+  665  git commit -m "Update 5 to the 'README.md' file."
+  666  git push
+  667  history 50 > terminal_history.txt
