@@ -26,6 +26,15 @@ from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
 
 def save_csv(csvpath, qualifying_loans):
+    """Creates a file containing the loans which the user qualifies for.
+    
+    Args:
+        qualifying_loans (list of lists): The qualifying bank loans.
+        csvpath (Path): The csv file path.
+    
+    Returns:
+        A CSV file that contains the data from the qualifying bank loans.
+    """
     csvpath = Path(csvpath)
     
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
